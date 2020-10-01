@@ -13,7 +13,7 @@
 [package]
 edition = "2018"
 name = "proc-macro-error-attr"
-version = "1.0.2"
+version = "1.0.4"
 authors = ["CreepySkeleton <creepy-skeleton@yandex.ru>"]
 build = "build.rs"
 description = "Attribute macro for proc-macro-error crate"
@@ -29,13 +29,5 @@ version = "1"
 
 [dependencies.quote]
 version = "1"
-
-[dependencies.syn]
-version = "1"
-features = ["derive", "parsing", "proc-macro", "printing"]
-default-features = false
-
-[dependencies.syn-mid]
-version = "0.5"
 [build-dependencies.version_check]
 version = "0.9"

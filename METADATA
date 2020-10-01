@@ -1,4 +1,4 @@
-name: proc-macro-error-attr
+name: "proc-macro-error-attr"
 description: "Attribute macro for proc-macro-error crate"
 third_party {
   url {
@@ -6,14 +6,14 @@ third_party {
     value: "https://crates.io/crates/proc-macro-error-attr"
   }
   url {
-    type: GIT
-    value: "https://gitlab.com/CreepySkeleton/proc-macro-error"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/proc-macro-error-attr/proc-macro-error-attr-1.0.4.crate"
   }
-  version: "1.0.2"
+  version: "1.0.4"
   license_type: NOTICE
   last_upgrade_date {
     year: 2020
-    month: 5
-    day: 6
+    month: 9
+    day: 29
   }
 }

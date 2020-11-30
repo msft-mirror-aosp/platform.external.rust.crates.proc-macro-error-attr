@@ -2,8 +2,12 @@
 {
   "presubmit": [
     {
-      "name": "proc-macro-error-attr_host_test_src_lib",
-      "host": true
+      "host": true,
+      "name": "proc-macro-error-attr_host_test_src_lib"
+    },
+    {
+      "host": true,
+      "name": "structopt-derive_host_test_src_lib"
     }
   ]
 }
